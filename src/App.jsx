@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const ENV = "development";
+const ENV = "production";
 const API_URL =
   ENV === "development"
     ? "http://localhost:8080/api/solicitudes"
